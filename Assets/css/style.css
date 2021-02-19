@@ -1,0 +1,271 @@
+
+@media screen and (max-width: 960px){
+    #main{
+        width:100% !important;
+        height:80%;
+    }
+
+    #portfolio{
+        width:100% !important;
+        height:80%;
+    }
+
+    #mainCard{
+        height:100%;
+        width:100% !important;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #portfolioCard{
+        height:100%;
+        width:100% !important;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #portrait{
+        width:20%;
+        height:20%;
+        opacity:70%;
+    }
+    #about{
+        display: none;
+    }
+    .button{
+        display:block !important;
+        height:5em;
+        width:40%;
+        margin-top:20px;
+        margin-bottom:20px;
+        font-size:1.5em;
+    }
+}
+
+@media screen and (max-width: 770px){
+    #mainCard{
+        width:98%;
+    }
+    #blinker{
+        display:none;
+    }
+    #pointer{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #mainCard{
+        width:99%;
+    }
+    .button{
+        height:90%;
+    }
+}
+
+
+#contactPage{
+    width:97%;
+    height:80%;
+    padding:1em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#workWithMe:hover{
+    color:#6600ff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#lastPageContacts{
+    margin-left:10%;
+    margin-right:10%;
+    width:97%;
+    align-content: center;
+}
+
+#contactField{
+    width:70% !important;
+    height:400px;
+}
+
+#workWithMe{
+    font-size: 20px;
+    font-weight:600;
+}
+
+#callToAction{
+    text-align: center;
+    font-size: 3.5em;
+    margin-top:10px;
+}
+#callToAction:hover{
+    font-weight:900;
+    cursor: pointer;
+}
+
+#line{
+    margin-top:1px;
+    background-color: #090c1a;
+    height:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:45%;
+    font-weight: 900;
+}
+
+#mainCard{
+    width:97%;
+    height:80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1em;
+}
+
+#portfolioCard{
+    width:97%;
+    height:90%;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding:1em;
+}
+
+
+
+.title, .subtitle{
+    margin-left:20px;
+}
+
+.subtitle{
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+.artsy-fartsy{
+    float:right;
+    width:40%;
+}
+
+#blinker{
+    float:right;
+    margin:0;
+    padding:0;
+    font-family: 'Monoton';
+    -webkit-animation: glow 0s linear infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s linear infinite alternate;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 15px #4666FF;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 15px #0830f9, 0 0 20px #4666FF, 0 0 30px #526df2, 0 0 45px #4f6bf5, 0 0 60px #637bf4
+    }
+  }
+
+  #pointer{
+    float:right;
+    margin-right:10px;
+    padding-bottom:20px;
+    height:3.5em;
+    width:2em;
+}
+
+.title{
+    display:inline-block;
+    padding-bottom: 20px;
+}
+#name:hover{
+    color:#c66b3d;
+    font-size: 34px;
+}
+
+.content{
+    line-height: 35px;
+    width:50%;
+    margin-left:20px;
+    margin-right: 10px;
+    float:left;
+    position:absolute;
+    overflow: hidden;
+}
+
+#portrait{
+    width:50%;
+    height:50%;
+    position:relative;
+    margin-right: 15px;
+    margin-left: 15px;
+    opacity:1;
+    float: right;
+    opacity:48%;
+
+}
+
+.hoverables{
+    color: #a0583c;
+}
+
+.hoverables:hover{
+    font-weight: bolder;
+    font-size: larger !important;
+    color:#a0583c;
+}
+
+/* Projects */
+
+#portfolioPageTitle{
+    font-size: 38px;
+    font-family: 'Monoton';
+    -webkit-animation: glow 0s linear infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s linear infinite alternate;
+    animation-fill-mode: forwards;
+}
+
+.projectShowcase>h2:hover{
+    width:100%;
+    height:100%;
+    color:#060913;
+    font-weight: 800;
+    font-size:180%;
+}
+
+.projectShowcase{
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:15px;
+    width:'97%';
+    height:'260px';
+    display:'block';
+}
+
+.projectTitles{
+    font-size: 20px;
+    font-weight:500;
+    width:50%;
+    margin-top:6%;
+    margin-left:5%;
+    margin-right:45%;
+}
+
+.projectLinks{
+    width:20%;
+    font-size: 10px;
+    margin-left:5%;
+    margin-right:45%;
+}
+
+
