@@ -31,7 +31,7 @@ This portfolio is a brief introduction into my professional life. I am an aspiri
 [Deployed link](https://amal31497.github.io/Updated-portfolio/)
 
 ## Screenshot:
-![Screenshot](./Assets/Pictures/screenshot.png)
+![Screenshot](./Assets/css/Pictures/screenshot.png)
 
 ## License: 
 
