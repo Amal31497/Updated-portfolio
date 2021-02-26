@@ -19,7 +19,7 @@
         padding-right: 0%;
     }
 
-    #portfolioCard{
+    #portfolioCards{
         height:100%;
         width:100% !important;
         margin-left: 0%;
@@ -44,6 +44,34 @@
         margin-bottom:20px;
         font-size:1.5em;
     }
+    #emailAndPhone{
+        display:grid;
+        justify-content: left;
+        width:85% !important;
+        padding-top:4px;
+        padding-bottom:4px;
+        font-size: 0.9rem;
+    }
+    #career{
+        display:grid;
+        justify-content: left;
+        width:60% !important;
+        padding-top:4px;
+        padding-bottom:4px;
+    }
+
+    #footer{
+        margin-top:10px;
+    }
+    
+    #footer-p{
+        width:100%;
+    }
+    
+    #resume{
+        float:right;
+        margin-left:20px;
+    }
 }
 
 @media screen and (max-width: 770px){
@@ -56,6 +84,21 @@
     #pointer{
         display:none;
     }
+    #emailAndPhone{
+        display:grid;
+        justify-content: left;
+        width:85% !important;
+        padding-top:4px;
+        padding-bottom:4px;
+        font-size: 0.9rem;
+    }
+    #career{
+        display:grid;
+        justify-content: left;
+        width:60% !important;
+        padding-top:4px;
+        padding-bottom:4px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -65,9 +108,50 @@
     .button{
         height:90%;
     }
+    #emailAndPhone{
+        display:grid;
+        justify-content: left;
+        width:85% !important;
+        padding-top:4px;
+        padding-bottom:4px;
+        font-size: 0.9rem;
+    }
+    #career{
+        display:grid;
+        justify-content: left;
+        width:60% !important;
+        padding-top:4px;
+        padding-bottom:4px;
+    }
+    #footer{
+        margin-top:10px;
+    }
+    
+    #footer-p{
+        width:100%;
+    }
+    
+    #resume{
+        float:right;
+        margin-left:20px;
+    }
 }
 
-
+@media screen and (max-width: 500px){
+    #footer{
+        margin-top:10px;
+    }
+    
+    #footer-p{
+        width:100%;
+    }
+    
+    #resume{
+        height:1.5rem;
+        float:right;
+        margin-left:20px;
+    }
+}
 #contactPage{
     width:97%;
     height:80%;
@@ -129,7 +213,7 @@
     padding:1em;
 }
 
-#portfolioCard{
+#portfolio-cards{
     width:97%;
     height:90%;
     margin-top: 20px;
@@ -145,9 +229,20 @@
     margin-left:20px;
 }
 
-.subtitle{
-    padding-top:20px;
-    padding-bottom:10px;
+#emailAndPhone{
+    display:grid;
+    justify-content: left;
+    width:27%;
+    padding-top:4px;
+    padding-bottom:4px;
+    font-size: 0.9rem;
+}
+#career{
+    display:grid;
+    justify-content: left;
+    width:23%;
+    padding-top:4px;
+    padding-bottom:4px;
 }
 
 .artsy-fartsy{
@@ -268,4 +363,33 @@
     margin-right:45%;
 }
 
+.project-Title{
+    font-size: 2rem;
+}
+.project-Description{
+    font-size:1.1rem
+}
+
+#social-media{
+    display:inline-block;
+}
+
+#footer{
+    margin-top:10px;
+}
+
+#footer-p{
+    width:100%;
+}
+
+#resume{
+    float:right;
+    margin-left:20px;
+    margin-bottom:auto;
+    margin-top:auto;
+}
+.content has-text-centered{
+    width:80%;
+    display:inline-block;
+}
 
