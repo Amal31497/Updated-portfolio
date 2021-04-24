@@ -30,8 +30,6 @@ $(document).ready(function(){
     $("#contactField").click(function(){
         contactPage.fadeIn(300)
     })
-    // var passwordPic = $("<img class='projectShowcase' id='passwordShowcase' src='./Assets/css/Pictures/password.png'>")
-    // $("#screenshot-password").append(passwordPic)
 
 
     $("#workWithMe").click(function(){
@@ -45,5 +43,6 @@ $(document).ready(function(){
         localStorage.setItem("message",messageInput);
     })
 })
+
 
 
